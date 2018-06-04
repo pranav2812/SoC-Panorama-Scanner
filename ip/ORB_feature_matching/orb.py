@@ -1,10 +1,10 @@
 import cv2
 import matplotlib.pyplot as plt
 
-# max_features1=10
-# max_features2=10
-image1='25.jpg'
-image2='24.jpg'
+max_features1=500
+max_features2=500
+image1='25.jpg' #put image1 dir
+image2='24.jpg' #put image2 dir
 no_of_maps=10
 
 def make_connections(i1,i2):
@@ -14,9 +14,9 @@ def make_connections(i1,i2):
 	gray2=cv2.cvtColor(i2,cv2.COLOR_BGR2GRAY)
 	
 	#mark orbs
-	orb1=cv2.ORB_create()
+	orb1=cv2.ORB_create(max_features1)
 	kp1,d1=orb1.detectAndCompute(gray1,None)
-	orb2=cv2.ORB_create()
+	orb2=cv2.ORB_create(max_features2)
 	kp2,d2=orb2.detectAndCompute(gray2,None)
 
 	#match orbs
