@@ -14,10 +14,12 @@ Used BFMatcher for mapping
 Tried Descriptor and FLANN.
 
 #### very good for similar lighting conditions
-	https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched1.jpg
+
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched1.jpg
 
 #### poor for changed lighting conditions and scenery
-	https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched.jpg
+
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched.jpg
 
 Poor results maybe because of direct application of orb creation and mapping on grayscale image.Applying transformations may help.Got to test it thoroghly.
 
