@@ -21,6 +21,6 @@ https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched1.
 
 https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched.jpg
 
-Poor results maybe because of direct application of orb creation and mapping on grayscale image.Applying transformations may help.Got to test it thoroghly.
+Poor results maybe because of direct application of orb creation and mapping on grayscale image.Applying transformations may help.Got to test it thoroughly.
 
 
