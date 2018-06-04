@@ -10,7 +10,7 @@ https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/orbs.jpg
 
 ## 3.Mapping:
 
-Used BFMatcher for mapping
+Used BFMatcher for mapping.
 Tried Descriptor and FLANN.
 
 #### very good for similar lighting conditions
