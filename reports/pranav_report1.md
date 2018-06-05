@@ -43,6 +43,7 @@ https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/On_text.j
 
 https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/On_text%20without_mask.jpg
 
+### BFMatcher is better than DescriptorMatcher and FLANN.
 
 
 
