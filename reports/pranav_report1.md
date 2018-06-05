@@ -25,7 +25,7 @@ Poor results maybe because of direct application of orb creation and mapping on 
 
 ## Observations till now
 
-### Maksing only makes it worse
+### Masking only makes it worse
 
 Orb detection on grayscale is much accurate on grayscale images.(without masking)
 
