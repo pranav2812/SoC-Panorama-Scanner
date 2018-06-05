@@ -35,9 +35,15 @@ With masking:
 
 https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched_with_mask.jpg
 
-### Goes haywire on text images
+### Goes haywire on text images with mask
 
 https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/On_text.jpg
+
+#### Without mask:
+
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/On_text%20without_mask.jpg
+
+
 
 
 
