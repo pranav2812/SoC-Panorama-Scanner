@@ -19,13 +19,26 @@ https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched1.
 
 #### poor for changed lighting conditions and scenery
 
-https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched.jpg
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched%20(1).jpg
 
 Poor results maybe because of direct application of orb creation and mapping on grayscale image.Applying transformations may help.Got to test it thoroughly.
 
-#### Maksing only makes it worse
+## Observations till now
 
-Orb detection on grayscale is much accurate on grayscale images.
+### Maksing only makes it worse
+
+Orb detection on grayscale is much accurate on grayscale images.(without masking)
+
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched.jpg
+
+With masking:
+
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched_with_mask.jpg
+
+### Goes haywire on text images
+
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/On_text.jpg
+
 
 
 
