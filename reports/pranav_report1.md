@@ -6,7 +6,7 @@
 
 ### Results:
 
-https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/orbs.jpg
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/Test_images/orbs.jpg
 
 ## 3.Mapping:
 
@@ -15,11 +15,11 @@ Tried Descriptor and FLANN.
 
 #### very good for similar lighting conditions
 
-https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched1.jpg
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/Test_images/matched1.jpg
 
 #### poor for changed lighting conditions and scenery
 
-https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched%20(1).jpg
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/Test_images/matched%20(1).jpg
 
 Poor results maybe because of direct application of orb creation and mapping on grayscale image.Applying transformations may help.Got to test it thoroughly.
 
@@ -29,19 +29,19 @@ Poor results maybe because of direct application of orb creation and mapping on 
 
 Orb detection on grayscale is much accurate on grayscale images.(without masking)
 
-https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched.jpg
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/Test_images/matches_without_mask.jpg
 
 With masking:
 
-https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/matched_with_mask.jpg
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/Test_images/matched_with_mask.jpg
 
 ### Goes haywire on text images with mask
 
-https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/On_text.jpg
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/Test_images/On_text.jpg
 
 #### Without mask:
 
-https://github.com/pranav2812/SoC-Panorama-Scanner/blob/master/results/On_text%20without_mask.jpg
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/Test_images/On_text%20without_mask.jpg
 
 ### BFMatcher is better than DescriptorMatcher and FLANN.
 
