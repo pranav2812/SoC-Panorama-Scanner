@@ -45,6 +45,11 @@ https://github.com/pranav2812/SoC-Panorama-Scanner/blob/Test_images/On_text%20wi
 
 ### BFMatcher is better than DescriptorMatcher and FLANN.
 
+## Done with stitching two images with feature mapping and homography
+### HSV matching is remaining 
+
+https://github.com/pranav2812/SoC-Panorama-Scanner/blob/Test_images/final.jpg
+
 
 
 
